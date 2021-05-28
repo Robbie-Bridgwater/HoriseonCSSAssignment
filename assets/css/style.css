@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* This body section changes the background for the entire page */
+body {
+    background-color: #d9dcd6;
+}
+
+/* This changes the font, font color, background color, and some 
+padding for most of the header's content */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* This changes the font size of the h1 element in the header and
+makes sure it is in the "correct" position  */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* This changes the color of the span element within the header, the letters "seo" */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* This changes the positioning, spacing, font and font size of all the divs found
+hierarchically under the header tag, in this case the contents of the table that makes up the nav bar */
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* This removes the bullet points from the top navigation bar that would usually by
+default because it is a table list */
+ul {
+    list-style-type: none;
+}
+
+/* This displays the elements in the table list in a line and creates some spacing
+between them */
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* 
+This changes the color of the links to white and removes the underline that is by
+default under a hyperlink */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* This changes the font size of the p elements on this web page */
+p {
+    font-size: 16px;
+}
+
+/* This applies to the hero class, this is usually an image with a text overlay,
+it changes it's size, positioning and what the image is */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* This changes where the search engine optimization and social media marketing
+picture resides on the page using float */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* This changes where the online reputation management picture resides on the 
+page using float */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* This changes the size, positioning and how the content class is displayed. This 
+could of been used in conjucture with "section" and "section div". But I believed
+using a class was a simpler approach. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* This changes the font size and spacing around the h2 elements within the section
+div */
+section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This changes the font, font color, background color, size and spacing for the
+section class */
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* This changes the picture size for the images within the section div */
+section img {
+    max-height: 200px;
+}
+
+/* This changes the size, spacing, position, and background color for the benefits
+class */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* This makes sure the h3 element within the aside div is in the centre and creates some
+space underneath it */
+aside h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* This changes the font color of the text within the aside div and creates some space under it */
+aside {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* This changes the size, spacing and display features of the images within the aside div */
+aside img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* This changes the font size of the h4 element within the footer, I wanted the headings to
+be in sequential order so I had to change the size correspondingly */
+footer h4 {
+    font-size: 20px;
+}
+
+/* This changes the spacing around the footer, the font used and makes sure the text resides in the middle */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
